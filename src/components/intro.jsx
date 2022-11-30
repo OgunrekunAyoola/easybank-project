@@ -18,6 +18,7 @@ return (
             for spending, saving, budgeting, investing, and much more.
 
         </p>
+        <button>Request Invite</button>
     </section>
     </>
 )
