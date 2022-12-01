@@ -1,4 +1,7 @@
 
+@import url(https://fonts.google.com/specimen/Public+Sans);
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&family=Poppins:wght@100;200;300;400;500&display=swap");
+
 
 
 :root {
@@ -39,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Public Sans", sans-serif;
   text-transform: uppercase;
 }
 h2 {
@@ -47,15 +50,16 @@ h2 {
 }
 p {
   font-size: 14px;
-  font-family: "Alata", sans-serif;
+  font-family: "Public Sans", sans-serif;
   color: var(--Grayish-Blue);
 }
 ul {
   list-style: none;
+  font-family: "Public Sans", sans-serif;
 }
 button {
-
-  font-family: "Alata", sans-serif;
+    background-color: transparent;
+  font-family: "Public Sans", sans-serif;
   border: 0;
   color: var(--black);
 }
@@ -85,7 +89,7 @@ footer .logo{
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: var(--black);
+  background-color: var(--white);
   min-height: 100vh;
 } 
 .header nav.open {
@@ -93,20 +97,21 @@ footer .logo{
    transition: 2s all ;
 }
 
-.header nav .nav-logo {
-  padding: 25px 0px 0px 20px;
-  width: 40vw;
-}
 
 .header nav ul {
-  padding-top: 70px;
+  padding: 1px 0px 20px 0px;
+  margin-top: 70px;
+  width: 80%;
+  text-align: center;
+  margin-inline: auto;
+  background-color: var(--White);
 }
 .header nav ul li {
-  margin-bottom: 30px;
+  margin-top: 20px;
   padding-left: 20px;
 }
 .header nav ul li button {
-  text-transform: uppercase;
+  
   font-size: 5vw;
 }
 .header .menu-btn {
@@ -138,7 +143,7 @@ footer .logo{
     background-size: cover;
 }   
 .intro-section h1{
-    padding: 20px 0px 20px 0px;
+    padding: 20px 10px 20px 10px;
     color: var(--Dark-Blue);
 }
 
@@ -156,7 +161,7 @@ footer .logo{
     margin: auto;
 }
 .why-choose h1{
-    padding: 40px 0px 20px 0px;
+    padding: 40px 10px 20px 10px;
     color: var(--Dark-Blue);
 }
 .reason-choose{
@@ -200,25 +205,28 @@ padding: 40px 0px 20px 0px;
 
 
 .footer {
-  /* background-color: var(--Dark-Blue); */
+  background-color: var(--Dark-Blue);
   color: var(--white);
-  padding: 50px 0;
+  padding: 20px 0px;
   margin-top: 50px;
   text-align: center;
 }
 .footer .logo {
-  padding: 20px;
+  padding: 0px 0px 0px 0px;
   margin: auto;
 }
 
 .footer ul {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .footer ul li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: var(--Light-Grayish-Blue);
 }
 .footer .social {
   display: flex;
+  padding: 10px 0px 10px 0px;
   align-items: center;
   justify-content: center;
 }
@@ -227,10 +235,20 @@ padding: 40px 0px 20px 0px;
   margin-right: 20px;
   font-size: 24px;
 }
+.footer button{
+    color: var(--Light-Grayish-Blue);
+    font-size: 14px;
+     margin-top: 10px;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-image: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
 .footer .copy-right {
   font-family: "Alata", sans-serif;
-  color: var(--dark-gray);
-  font-size: 15px;
+  color: var(--Grayish-Blue);
+  font-size: 11px;
 }
 
 

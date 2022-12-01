@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "../assets/images/logo.svg"
+import Logo from "../assets/images/footerlogo.svg"
 import Facebook from "../assets/images/icon-facebook.svg"
 import youtube from"../assets/images/icon-youtube.svg"
 import twitter from "../assets/images/icon-twitter.svg"
@@ -14,30 +14,27 @@ const Footer = () => {
                 <div className='logo'>
                     <img src={Logo} alt="" />
                 </div>
-                <ul>
-                    <li><button>About</button></li>
-                    <li><button>contact</button></li>
-                    <li><button>Blog</button></li>
-                    <li><button>Careers</button></li>
-                    <li><button>Support</button></li>
-                    <li><button>Privacy Policy</button></li>
-
-                </ul>
-                <button>Reuest Invite</button>
-            </div>
-            <div>
-                <ul className='social'>
+                 <ul className='social'>
                     <li><img src={Facebook} alt="" /></li>
                      <li><img src={youtube} alt="" /></li>
                      <li><img src={twitter} alt="" /></li>
                       <li><img src={pinterest} alt="" /></li>
                        <li><img src={instagram} alt="" /></li>
                 </ul>
-                <div className='copy-right'>
-                    2021 Loopstudios. All right reserved.
-                </div>
-            </div>
+                <ul>
+                    <li>About</li>
+                    <li>contact</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                    <li>Support</li>
+                    <li>Privacy Policy</li>
 
+                </ul>
+                <button>Request Invite</button>
+            </div>
+                <div className='copy-right'>
+                   © Easybank.. All Right Reserved.
+                </div>
         </footer>
     )
 }
