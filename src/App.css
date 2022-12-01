@@ -46,7 +46,7 @@ h6 {
   text-transform: uppercase;
 }
 h2 {
-  font-size: 25px;
+  font-size: 30px;
 }
 p {
   font-size: 18px;
@@ -144,6 +144,7 @@ footer .logo{
 .intro-section h1{
     padding: 20px 10px 20px 10px;
     color: var(--Dark-Blue);
+    font-size: 30px;
 }
 
 .intro-section button{
