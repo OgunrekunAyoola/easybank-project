@@ -24,14 +24,14 @@ return(
             <img src={Logo} alt="Loopstudios" />
            </div>
            <nav>
-           
             <ul>
-                <li><button>Home</button></li>
-                <li><button>About</button></li>
-                <li><button>Contact</button></li>
-                <li><button>Blog</button></li>
-                <li><button>Careers</button></li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Blog</li>
+                <li>Careers</li>
             </ul>
+             <button className='header-btn'>Request Invite</button>
            </nav>
            <div className="menu-btn" onClick={() => showNav()}></div>
        </header>
